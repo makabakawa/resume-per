@@ -11,10 +11,15 @@ Build resumes with a fixed process: extract the source content, identify the tar
 
 Prioritize hiring value over literal preservation. Keep evidence, metrics, technical actions, and role fit. Remove weak filler, duplicated information, and ornamental explanations.
 
+This skill assumes the user already has a demo resume or source resume. Its job is to optimize, restructure, compress, and strengthen that source, not to fabricate a credible resume from nothing.
+
+When layout and content both need improvement, prefer using or referencing Liepin-style resume template logic to refine section hierarchy, spacing rhythm, and presentation quality.
+
 ## Workflow
 
 ### 1. Read the source resume
 
+- Require an existing demo resume, source resume, or resume draft as the starting point.
 - Extract the current content from the provided resume source.
 - Check whether the source is Chinese-only, English-only, or bilingual.
 - Identify the actual sections present: header, target role, summary, education, skills, projects, internships, awards, certificates, links.
@@ -29,6 +34,8 @@ Prioritize hiring value over literal preservation. Keep evidence, metrics, techn
   - scores or metrics
 
 Never rewrite factual details speculatively. If a detail looks corrupted by parsing, verify it from the clearest source before reusing it.
+
+Do not invent education, projects, internships, metrics, or skills that are not grounded in the provided source.
 
 ### 2. Determine the job target
 
@@ -179,6 +186,7 @@ Do not produce a crowded page that looks unreadable just to satisfy one-page for
 When asked to follow a platform style such as Liepin:
 
 - replicate the layout logic, visual hierarchy, and section rhythm
+- use the template style to improve both layout and content ordering when it strengthens screening clarity
 - do not copy branded marketing text into the resume
 - keep the resume content independent from the template source
 

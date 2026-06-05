@@ -3,8 +3,17 @@
 `resume-per` 是一个用于实际简历改写的 Codex skill。  
 `resume-per` is a Codex skill for practical resume rewriting.
 
-它适用于这样一类任务：你已经有一份简历，但它还不够聚焦、不够精炼、不够利于招聘方快速筛选，需要被重构为更强的一页版、岗位定向版或双语版。这个 skill 尤其面向算法、计算机视觉、LLM 应用、人工智能相关实习和校招场景。  
-It is designed for cases where an existing resume needs to become more targeted, shorter, cleaner, and easier for recruiters or interviewers to screen quickly. It is especially suitable for algorithm, computer vision, LLM application, AI internship, and campus hiring scenarios.
+它适用于这样一类任务：你已经有一份 demo 简历，但它还不够聚焦、不够精炼、不够利于招聘方快速筛选，需要被重构为更强的一页版、岗位定向版或双语版。这个 skill 以用户现有简历为输入，不负责凭空生成可信简历；在优化过程中，会优先调用或参考猎聘简历模板思路，对排版和内容同时进行调整。这个 skill 尤其面向算法、计算机视觉、LLM 应用、人工智能相关实习和校招场景。  
+It is designed for cases where you already have a demo resume, but it still needs to become more targeted, shorter, cleaner, and easier for recruiters or interviewers to screen quickly. This skill uses an existing resume as the source input rather than inventing a credible resume from scratch, and it can use Liepin-style resume templates as the main reference for both layout and content optimization. It is especially suitable for algorithm, computer vision, LLM application, AI internship, and campus hiring scenarios.
+
+## 使用前提 / Prerequisite
+
+- 你需要先准备一份自己的 demo 简历，作为这个 skill 的输入基础。  
+  You should prepare your own demo resume first, because this skill works from an existing source resume.
+- 这个 skill 的核心能力是调优、重写、压缩和重排，而不是从零杜撰经历。  
+  Its core capability is optimization, rewriting, compression, and restructuring, not fabricating experience from scratch.
+- 当你希望版式和内容一起优化时，这个 skill 会优先调用或参考猎聘模板逻辑进行处理。  
+  When layout and content both need improvement, this skill will prioritize Liepin-style template logic during optimization.
 
 ## 功能 / What It Does
 
@@ -14,6 +23,8 @@ It is designed for cases where an existing resume needs to become more targeted,
   Compresses the resume into a stronger one-page version when required.
 - 围绕“技术方法 + 实际动作 + 结果指标”重写项目经历  
   Rewrites project bullets around methods, actions, and measurable results.
+- 在需要时结合猎聘模板思路优化模块层级、版式节奏和内容呈现  
+  Uses Liepin-style template logic when needed to improve section hierarchy, layout rhythm, and content presentation.
 - 支持中文、英文或中英双语简历  
   Supports Chinese, English, or bilingual resumes.
 - 保留硬事实，删除冗余、空泛或削弱说服力的内容  
