@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resume Per"
+  short_description: "Build strong one-page resumes for job applications."
+  default_prompt: "Use $resume-per to rebuild or refine a resume for a specific job target."
+
+policy:
+  allow_implicit_invocation: true
